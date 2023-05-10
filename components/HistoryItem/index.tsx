@@ -37,7 +37,7 @@ export const HistoryItem: React.FC<HistoryItemProps> = ({
   return (
     <Grid
       templateColumns="200px calc(100% - 200px)"
-      pt={4}
+      pt={2}
       {...props}
       sx={{
         pageBreakAfter: 'auto',
@@ -70,7 +70,7 @@ export const HistoryItem: React.FC<HistoryItemProps> = ({
           ) : null}
         </Heading>
         {subtitle ? (
-          <Heading as="h5" fontSize="md" mt={1}>
+          <Heading as="h5" fontSize="sm" mt={1}>
             {subtitle}
           </Heading>
         ) : null}

@@ -23,7 +23,7 @@ export default function Home() {
           </Link>
         </Box>
         <Box mt={2}>
-          <Link href="mailto:j893412899@outlook.com">
+          <Link href="https://github.com/Vibes-INS">
             Github: https://github.com/Vibes-INS
           </Link>
         </Box>
@@ -171,7 +171,7 @@ export default function Home() {
           title="Javascript Full Stack Engineer"
           subtitle="Maimemo Inc."
           timeProps={{ fontWeight: 500 }}
-          mt="150px"
+          // mt="180px"
         />
         <Flex direction="column">
           <HistoryItem
@@ -298,6 +298,31 @@ export default function Home() {
           subtitle="中华人民共和国人力资源和社会保障局"
           link="https://query.ruankao.org.cn/certificate"
           description={<>Credential ID 2018215441805486</>}
+        />
+      </Flex>
+      <Flex
+        direction="column"
+        borderTop="1px solid"
+        borderColor="gray.200"
+        py={4}
+      >
+        <Flex textTransform="uppercase" w="full" fontWeight={700}>
+          Educational experience
+        </Flex>
+        <HistoryItem
+          startTime="2016-03"
+          endTime="2020-02"
+          title={
+            <>
+              清远市技师学院 <Tag>专科 计算机网络应用</Tag>
+            </>
+          }
+          description={
+            <>
+              在校期间积极参与活动和专业课，专业课平均分 86
+              分。曾多次获得奖学金。曾代表学校参加网络安全省选拔赛曾获第七名。也曾担任数个学期班长和学习委员。
+            </>
+          }
         />
       </Flex>
     </Flex>
